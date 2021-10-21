@@ -1,0 +1,20 @@
+steal(
+    '//can/can.js',
+    '//can/control/plugin/plugin.js',
+    '//can/util/json.js',
+    '//can/util/mvc.js',
+    '//can/util/fixture/fixture.js',
+    '//sprintf/src/sprintf.js'
+).then(
+    '//lib/lib.js'
+).then(
+    '//bootstrap/bootstrap.css'
+).then(
+    '//bootstrap/bootstrap.js'
+).then(
+    './controllers/controllers.js',
+    './public/css/service.css',
+    './views/views.js'
+).then(function(){
+    jQuery('body').OSCore();
+});

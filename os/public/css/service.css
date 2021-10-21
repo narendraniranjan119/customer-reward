@@ -1,0 +1,33 @@
+.service-container {
+    margin: 50px 100px;
+}
+
+.service-container .service {
+    margin-bottom: 20px;
+    box-shadow: #e7e7e7 0 9px 16px;
+}
+
+.service-container .service .header {
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: thin solid #e7e7e7;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    bottom-border-width: 0;
+    color: #777;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.service-container .service .body {
+    padding: 10px;
+    border: thin solid #e7e7e7;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #fff;
+}
+
+.service-container .service .body .reward,
+.service-container .service .body .channel {
+    list-style-type: circle;
+}
